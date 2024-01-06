@@ -1,0 +1,24 @@
+{
+  "name": "copy-images-to-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.3",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "tsx": "^3.13.0",
+    "typescript": "^5.3.3"
+  }
+}
